@@ -14,8 +14,6 @@ class GithubForkRibbonCssAsset extends AssetBundle
     public $sourcePath = '@bower/github-fork-ribbon-css';
     public $css = [
         'gh-fork-ribbon.css',
-        'gh-fork-ribbon.ie.css' => [
-            'condition' => 'lt IE 9',
-        ],
+        ['gh-fork-ribbon.ie.css', 'condition' => 'lt IE 9'],
     ];
 }
