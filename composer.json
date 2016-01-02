@@ -13,7 +13,7 @@
     "prefer-stable": true,
     "require": {
         "bower-asset/github-fork-ribbon-css": "^0.1.1",
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "~2.0.7@dev"
     },
     "autoload": {
         "psr-4": {
